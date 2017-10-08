@@ -1,0 +1,68 @@
+---
+network: "BLACK_BOX"
+host: "10.0.0.9"
+ConnectedSystemIP:
+  - "192.159.78.19"
+  - "192.168.79.29"
+  - "192.132.78.14"
+Systems:
+    - net.PB020.Gen1.RC.RC_System:
+        '@id': ASUS
+        systemName: "ASUS"
+        systemOS: "Windows 8.1"
+        systemType: 64
+        systemStorage: 750
+        processorModel: "Intel Core i5"
+        processorSpeed: 2.50
+        numberOfProcessors: 4
+        systemRam: 4096
+        isConnectedtoNetwork: False
+    - net.PB020.Gen1.RC.RC_Network:
+        '@id': AYAS
+        systemName: "AYAS"
+        systemOS: "Windows 10"
+        systemType: 64
+        systemStorage: 1000
+        processorModel: "Intel Core i7"
+        processorSpeed: 3.10
+        numberOfProcessors: 4
+        systemRam: 8192
+        isConnectedtoNetwork: True
+        defaultGateway: "10.72.64.1"
+        IPv4Address: "192.168.56.1"
+        transmissionMedia: "Wireless"
+        DNSSuffix: "mcpsmd.org"
+        isConnectedtoLAN: false
+    - net.PB020.Gen1.RC.RC_LANConnect:
+        '@id': YYAS
+        systemName: "YYAS"
+        systemOS: "Windows 10"
+        systemType: 64
+        systemStorage: 50
+        processorModel: "Intel Core i3"
+        processorSpeed: 1.70
+        numberOfProcessors: 4
+        systemRam: 2048
+        isConnectedtoNetwork: True
+        defaultGateway: "10.72.64.1"
+        IPv4Address: "192.168.56.1"
+        transmissionMedia: "Wired"
+        DNSSuffix: "mcpsmd.org"
+        isConnectedtoLAN: True
+        isWiredConnection: True
+        '@id': GABT
+        systemName: "GABT"
+        systemOS: "Windows 10"
+        systemType: 32
+        systemStorage: 750
+        processorModel: "Intel Core i5"
+        processorSpeed: 2.5
+        numberOfProcessors: 4
+        systemRam: 2048
+        isConnectedtoNetwork: True
+        defaultGateway: "10.72.64.1"
+        IPv4Address: "192.168.56.1"
+        transmissionMedia: "Wired"
+        DNSSuffix: "mcpsmd.org"
+        isConnectedtoLAN: True
+        isWiredConnection: True
